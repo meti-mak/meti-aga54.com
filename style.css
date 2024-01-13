@@ -276,12 +276,6 @@ section {
   border-radius: 20px;
   cursor: pointer;
 }
-.toggle-btn img{
-  width:45px;
-  height:30px;
-  margin-left: 10px;
-}
-
 .btn-container {
   display: flex;
   justify-content: center;
