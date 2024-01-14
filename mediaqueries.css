@@ -132,4 +132,8 @@
   .comment-box textarea{
     width: 85%;
   }
+ .about-pic {
+  height:15rem;
+  width:12rem;
+  }
 }
