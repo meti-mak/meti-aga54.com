@@ -9,3 +9,8 @@ let btnm = document.getElementById("btnm");
 btnm.onclick = function(){
   document.body.classList.toggle("dark-theme");
 }
+let btnm1 = document.getElementById("btnm1");
+
+btnm1.onclick = function(){
+  document.body.classList.toggle("dark-theme");
+}
