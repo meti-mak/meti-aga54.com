@@ -400,7 +400,9 @@ article .icon {
   position: relative;
   margin-top:5rem;
 }
-
+#project-img3{
+  height:23.4rem;
+}
 .color-container {
   border-color: rgb(163, 163, 163);
   background: transparent;
