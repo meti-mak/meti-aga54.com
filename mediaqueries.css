@@ -125,10 +125,6 @@
   .text-container {
     text-align: justify;
   }
-  .toggle-btn{
-    margin-left: 11%;
-    height: 8%;
-  }
    .comment-box input{
     height: 2.5rem ;
     width: 85%;
