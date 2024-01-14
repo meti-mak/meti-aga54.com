@@ -114,6 +114,7 @@ a:hover {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+   margin-left:2rem;
 }
 
 .hamburger-icon {
