@@ -132,4 +132,11 @@
     margin-left: 11%;
     height: 8%;
   }
+   .comment-box input{
+    height: 2.5rem ;
+    width: 85%;
+  }
+  .comment-box textarea{
+    width: 85%;
+  }
 }
