@@ -497,7 +497,7 @@ article .icon {
 
 }
 .comment-box input{
-  width: 50%;
+  width: 65%;
   height: 50px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -512,7 +512,7 @@ background: #f8ffff;
 outline: 0;
 }
 .comment-box textarea{
-  width: 50%;
+  width: 65%;
   height: 150px;
   padding: 15px 20px;
   margin: 10px;
