@@ -202,13 +202,13 @@
   margin: 3%;
  }
  #hamburger-nav .logo-pic{
-  top: 4%;
+  top: -1%;
   }
 .nav-links-container{
-  margin-bottom: -18%;
+  margin-bottom: -10%;
 }
 #projects{
-  margin-bottom: -70%;
+  margin-bottom: -720%;
 }
 .comment-box h2{
   font-size: 28px;
