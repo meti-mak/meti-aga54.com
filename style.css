@@ -25,10 +25,9 @@ body {
   font-family: "Poppins", sans-serif;
   background: var(--background-color);
 }
-
 html {
   scroll-behavior: smooth;
-} */
+}
 
 p {
   color: rgb(85, 85, 85);
