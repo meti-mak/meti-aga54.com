@@ -180,6 +180,42 @@
     border-color: rgb(163, 163, 163);
   }
  }
+ @media screen and (max-width: 450px) and (orientation: portrait)
+ {
+  .title-1{
+    font-size: 25px;
+    font-weight:600;
+  }
+  .section__pic-container{
+    margin-bottom: 50%;
+  }
+  .about-pic{
+    margin-top: -3%;
+  }
+
+.contact-info-upper-container{
+  width: 120%;
+  margin-left: -10%;
+  height: 40%;
+}
+.contact-info-upper-container p{
+  font-size: 95%;
+}
+.nav-links-container{
+  margin-bottom: -18%;
+}
+#projects{
+  margin-bottom: -70%;
+}
+.comment-box h2{
+  font-size: 28px;
+}
+.btn-1{
+  width: 90%;
+  height: 10%;
+  font-size: 15px;
+}
+ }
  @media only screen and (max-width:1024px) and (orientation: landscape){
    #profile{
     margin-bottom: 22rem;
