@@ -7,13 +7,24 @@
     flex-wrap: wrap;
   }
   #contact,
-  #projects {
+  #projects
+  #section-container  {
     height: fit-content;
   }
   .menu-links{
     background:transparent;
     font-weight: 600;
   }
+   /* add  */
+   #contact{
+  margin-top: 60%;
+  padding: 10%;
+  }
+ .comment-box{
+  margin-top: 49%;
+
+ }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -28,15 +39,31 @@
     margin-top: 2rem;
   }
   .logo-pic{
-    width: 70px;
-    height: 70px;
+    width: 70%;
+    height: 70%;
     margin-left:50%;
     top: 2.2rem;
     border-radius: 50%;
   }
   #profile,
-  .section-container {
+  .section-container 
+{
     display: block;
+  }
+  /* add  */
+  #contact{
+    margin: 5%;
+  }
+  .comment-box{
+    margin-top: 0%;
+  
+   }
+   .about-pic {
+    margin-left:30%;
+    transform:scale(1.1);
+  }
+  .toggle-btn{
+    margin-top: 0.4%;
   }
   .arrow {
     display: none;
@@ -62,21 +89,18 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) and (orientation: portrait)
+{
   #contact,
   footer {
     height: 40vh;
   }
-  .logo-pic{
-    width: 50px;
-    height: 50px;
-    margin-left: 50%;
-    top: 2.6rem;
-    border-radius: 50%;
-  }
   #profile {
     height: 83vh;
     margin-bottom: 0;
+  }
+  #contact{
+   margin-bottom: 0%;
   }
   article {
     font-size: 1rem;
@@ -125,20 +149,51 @@
   .text-container {
     text-align: justify;
   }
-   .comment-box input{
+  .comment-box input{
     height: 2.5rem ;
     width: 85%;
   }
   .comment-box textarea{
     width: 85%;
   }
- .about-pic {
-  height:15rem;
-  width:12rem;
+  .about-pic {
+    height:15rem;
+    width:12rem;
+    margin-left:7%;
+    transform:scale(1.1);
   }
-.about-details-container{
- margin-top: 7rem;
+  .about-details-container{
+    margin-top: 4rem;
   }
   #hamburger-nav .logo-pic{
-    top:5.5%;
-}
+  top: 5%;
+  }
+  #project-img3{
+    width: 90%;
+    height: 90%;
+  }
+  .last{
+    background: #b2c7eb;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+  }
+ }
+ @media only screen and (max-width:1024px) and (orientation: landscape){
+   #profile{
+    margin-bottom: 22rem;
+   }
+   .about-pic{
+    margin-left: 30%;
+    transform:scale(1.1);
+   }
+   #contact{
+    /* add  */
+  margin-bottom: 20%;
+ }
+  .details-container{
+ width: 50%;
+  }
+ }
+
