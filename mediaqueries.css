@@ -187,12 +187,9 @@
     font-weight:600;
   }
   .section__pic-container{
-    margin-bottom: 50%;
+    margin-bottom: 30%;
+    margin-top: 5%;
   }
-  .about-pic{
-    margin-top: -3%;
-  }
-
 .contact-info-upper-container{
   width: 120%;
   margin-left: -10%;
@@ -201,6 +198,12 @@
 .contact-info-upper-container p{
   font-size: 95%;
 }
+#section__pic{
+  margin: 3%;
+ }
+ #hamburger-nav .logo-pic{
+  top: 4%;
+  }
 .nav-links-container{
   margin-bottom: -18%;
 }
